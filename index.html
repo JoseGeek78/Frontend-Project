@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React with Flask</title>
+
+    <!-- Incluir los estilos de Bootstrap (CSS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Incluir iconos de Font Awesome (CSS) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-7oQ3Fwkfy9+I3jvO6Y1MAtnJRMK+vsYSE8DP3wRbBmG9OhMvPVYxlU+x7jC3N9x9af0NEN3U0vkQRb7B1DVLn1Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Incluir estilos personalizados (si los tienes) -->
+    <!-- <link rel="stylesheet" href="/path/to/your/custom-styles.css"> -->
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Incluir los scripts de Bootstrap (JavaScript) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Opcional: Incluir scripts personalizados (si los tienes) -->
+    <!-- <script type="module" src="/path/to/your/custom-scripts.js"></script> -->
+
+    <!-- Configuración para comunicación con el backend Flask -->
+    <script>
+        const API_BASE_URL = 'http://localhost:5000';  // Cambia la URL según la configuración de tu backend
+    </script>
+
+    <!-- Incluir el script de tu aplicación React -->
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
